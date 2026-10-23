@@ -169,11 +169,11 @@
     "dataSource": "poll",
     "tier": 2,
     "adminUI": {
-      "config": "materialize"
+      "config": "json"
     }
   },
   "native": {
-    "apikey": "",
+    "apiKey": "",
     "location": "",
     "station": "",
     "language": "DL",
@@ -181,6 +181,7 @@
     "forecast_periods": true,
     "forecast_hourly": true,
     "current": true,
+    "regionalCurrent": false,
     "nonMetric": false,
     "custom_icon_base_url": "",
     "country": "DE",
@@ -188,5 +189,11 @@
     "iconSet": "i"
   },
   "objects": [],
-  "instanceObjects": []
+  "instanceObjects": [],
+  "encryptedNative": [
+    "apiKey"
+  ],
+  "protectedNative": [
+    "apiKey"
+  ]
 }
